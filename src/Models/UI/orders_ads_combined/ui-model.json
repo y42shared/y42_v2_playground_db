@@ -678,14 +678,6 @@
       "to": "94320ea5-6ea6-471b-9852-9380b8d6c1ec"
     },
     {
-      "from": "971515a8-a10a-4f69-9c7b-1bcaedf16efb",
-      "to": "a0703479-f28d-4db6-9d46-fbdefedf4db3"
-    },
-    {
-      "from": "94320ea5-6ea6-471b-9852-9380b8d6c1ec",
-      "to": "a0703479-f28d-4db6-9d46-fbdefedf4db3"
-    },
-    {
       "from": "a0703479-f28d-4db6-9d46-fbdefedf4db3",
       "to": "06db2ae0-d630-4414-8941-7648ef0d8f93"
     },
@@ -694,37 +686,61 @@
       "to": "8649d992-0aa6-45ba-b548-a59841d00bef"
     },
     {
-      "from": "8649d992-0aa6-45ba-b548-a59841d00bef",
-      "to": "c5589c2d-83b6-4c62-8eb0-88f21b367030"
-    },
-    {
-      "from": "da6fc4ff-3529-4c7d-b9e0-903862dba887",
-      "to": "c5589c2d-83b6-4c62-8eb0-88f21b367030"
-    },
-    {
       "from": "c5589c2d-83b6-4c62-8eb0-88f21b367030",
       "to": "d2131bbd-8e11-4feb-bc2d-fc42655989f2"
     },
     {
-      "from": "06db2ae0-d630-4414-8941-7648ef0d8f93",
-      "to": "7eada821-756d-4272-a496-351c31ab4b34"
+      "from": "d3ba3478-4bf5-44e7-96bd-e2fbe18b531c",
+      "to": "603f2f3e-068e-43a3-91f7-425e670830ab"
+    },
+    {
+      "from": "971515a8-a10a-4f69-9c7b-1bcaedf16efb",
+      "to": "a0703479-f28d-4db6-9d46-fbdefedf4db3",
+      "frompid": "OUT",
+      "topid": "L"
+    },
+    {
+      "from": "94320ea5-6ea6-471b-9852-9380b8d6c1ec",
+      "to": "a0703479-f28d-4db6-9d46-fbdefedf4db3",
+      "frompid": "OUT",
+      "topid": "R"
+    },
+    {
+      "from": "da6fc4ff-3529-4c7d-b9e0-903862dba887",
+      "to": "c5589c2d-83b6-4c62-8eb0-88f21b367030",
+      "frompid": "OUT",
+      "topid": "L"
+    },
+    {
+      "from": "8649d992-0aa6-45ba-b548-a59841d00bef",
+      "to": "c5589c2d-83b6-4c62-8eb0-88f21b367030",
+      "frompid": "OUT",
+      "topid": "R"
     },
     {
       "from": "d2131bbd-8e11-4feb-bc2d-fc42655989f2",
-      "to": "7eada821-756d-4272-a496-351c31ab4b34"
+      "to": "7eada821-756d-4272-a496-351c31ab4b34",
+      "frompid": "OUT",
+      "topid": "R"
+    },
+    {
+      "from": "06db2ae0-d630-4414-8941-7648ef0d8f93",
+      "to": "7eada821-756d-4272-a496-351c31ab4b34",
+      "frompid": "OUT",
+      "topid": "L"
     },
     {
       "from": "a0703479-f28d-4db6-9d46-fbdefedf4db3",
-      "to": "d3ba3478-4bf5-44e7-96bd-e2fbe18b531c"
+      "to": "d3ba3478-4bf5-44e7-96bd-e2fbe18b531c",
+      "frompid": "OUT",
+      "topid": "L"
     },
     {
       "from": "7eada821-756d-4272-a496-351c31ab4b34",
-      "to": "d3ba3478-4bf5-44e7-96bd-e2fbe18b531c"
-    },
-    {
-      "from": "d3ba3478-4bf5-44e7-96bd-e2fbe18b531c",
-      "to": "603f2f3e-068e-43a3-91f7-425e670830ab"
+      "to": "d3ba3478-4bf5-44e7-96bd-e2fbe18b531c",
+      "frompid": "OUT",
+      "topid": "R"
     }
   ],
-  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.1/model.json"
+  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
