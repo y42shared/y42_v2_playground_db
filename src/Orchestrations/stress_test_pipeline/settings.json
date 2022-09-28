@@ -3,6 +3,34 @@
   "cronExpression": "",
   "forceSchedule": false,
   "linkDataArray": [],
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "f0db9c17-6eaf-448d-b081-3d8d70d7f95c",
+      "path": "src/Models/SQL/stress_test3/table_1",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "9bd82664-cf85-4a1a-99f9-be9458cb3402",
+      "path": "src/Models/SQL/stress_test2/table_1",
+      "location": "0 62",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "25b47784-7cf0-4214-8c83-7b3ff5233523",
+      "path": "src/Models/SQL/stress_test1/table_1",
+      "location": "0 124",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
