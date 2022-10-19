@@ -1,0 +1,7 @@
+{
+  "$schema": "https://s.y42.com/exports/big_query/0.0.0/table",
+  "datasource_table_path": "src/Integrations/Amazon_Ads/demo_amazon_ads.csv",
+  "dataset_id": "test_giang",
+  "table_id": "test",
+  "project_id": "todo"
+}
