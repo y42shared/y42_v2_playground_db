@@ -1,5 +1,119 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "53baa98e-9e17-4437-bd77-c8cf0fe66b31",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "53baa98e-9e17-4437-bd77-c8cf0fe66b31",
+        "title": "demo_facebook_ads.csv",
+        "transformationType": "INPUT",
+        "datasourceName": "Facebook Ads",
+        "transformObject": {
+          "source": "src/Integrations/Facebook_Ads",
+          "table": "src/Integrations/Facebook_Ads/demo_facebook_ads.csv",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-363.0722908678658 -44.08277708029709"
+    },
+    {
+      "key": "dfab6100-6cc0-4356-8a8b-ff9635a30e29",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "dfab6100-6cc0-4356-8a8b-ff9635a30e29",
+        "title": "mart_johannes",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "mart_johannes",
+          "fields": [
+            {
+              "target": "order_date",
+              "source": "order_date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "last_click_channel",
+              "source": "last_click_channel",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "adspend",
+              "source": "adspend",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "additional_column",
+              "source": "additional_column",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "302.71783258892447 -54.52223685011597"
+    },
+    {
+      "key": "5857f8ca-329f-4fac-8d91-9ab0b7f95a45",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "5857f8ca-329f-4fac-8d91-9ab0b7f95a45",
+        "title": "",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "additional_column",
+            "originalString": "\"Additional Column\""
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-13.763648892557057 -49.82412364256879"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "53baa98e-9e17-4437-bd77-c8cf0fe66b31",
+      "to": "5857f8ca-329f-4fac-8d91-9ab0b7f95a45",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "5857f8ca-329f-4fac-8d91-9ab0b7f95a45",
+      "to": "dfab6100-6cc0-4356-8a8b-ff9635a30e29",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
   "$schema": "https://s.y42.com/integrations/ui_model/0.0.1/model.json"
 }
